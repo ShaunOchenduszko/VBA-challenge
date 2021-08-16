@@ -1,4 +1,3 @@
-Attribute VB_Name = "stock_cruncher"
 Sub stockcrunch():
 
 'loop for all sheets
