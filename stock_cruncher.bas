@@ -115,8 +115,10 @@ For Each ws In Worksheets
         Dim greatest As Double
         greatest = 1
         For greatinc = 2 To sumlastrow
-        
-            If ws.Cells(greatinc, 11).Value > greatest Then
+            
+            If ws.Cells(greatinc, 11).Value = "Null" Then
+            
+            ElseIf ws.Cells(greatinc, 11).Value > greatest Then
             greatest = ws.Cells(greatinc, 11)
             ws.Range("P2").Value = ws.Cells(greatinc, 11)
             ws.Range("O2").Value = ws.Cells(greatinc, 9)
