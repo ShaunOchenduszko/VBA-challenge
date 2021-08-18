@@ -1,7 +1,7 @@
 # VBA-challenge
 Unit 2 VBA Homework Assignment
 
-File stock_cruncher.bas will automatically run through all sheets on Multiple_year_stock_data.xlsx to retrieve the following data:
+File stock_cruncher.vbs will automatically run through all sheets on Multiple_year_stock_data.xlsx to retrieve the following data:
 * The ticker symbol.
 * Yearly change from opening price at the beginning of a given year to the closing price at the end of that year. 
 * The percent change from opening price at the beginning of a given year to the closing price at the end of that year.
